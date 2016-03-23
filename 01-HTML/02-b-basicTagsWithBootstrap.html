@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Ejemplo de enlace a un archivo CSS. Lo dejo comentado por no existir el archivo -->
+		<!-- <link rel="stylesheet" href="css/main.css"> -->
+
+		<!-- Ejemplo de un enlace a un archivo externo. En este caso Bootstrap. El código apunta al CDN de Bootstrap, de donde, al encontrarse el browser con este tag, se descargará el archivo en cuestión y lo pondra a nuestra disposición. -->
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+		<!-- Título de la página. Aparece en la pestaña del navegador -->
+		<title>CFM-Rocks</title>
+	</head>
+	<body>
+		<!-- Tag de cabecera. Tenéis h1, h2, h3, h4 ,h5, h6 disponibles -->
+		<h1>Cabecera h1</h1>
+		<h2>Cabecera h2</h2>
+		<h3>Cabecera h3</h3>
+		<h4>Cabecera h4</h4>
+		<h5>Cabecera h5</h5>
+		<h6>Cabecera h6</h6>
+		
+		<!-- Aquí le asigno el id que considere (string) y una clase que después podrá ser referencia desde CSS o Javascript. Ambos valores puede ser utilizados para 'ubicar el elemento' y realizar acciones sobre el: pintarlo, darle forma, darle lógica ante eventos ... -->
+		<div id="bloque-1" class="container">
+			
+			<!-- Un parrafo. Sin más. Como todo elemento, puede tener un identificador (id), clases, ser accionable, ... -->
+			<p>
+				Soy un párrafo lorem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque quia iste repellat perferendis, quisquam sit dolorem, impedit adipisci repudiandae? Quisquam illum, suscipit laborum dolores quo cumque corporis alias excepturi tempore!
+			</p>
+			<p>
+				Para escribir ese parrafillo raro en sublime (muy útil para rellenar espacio cuando se hacen pruebas) escribe 'lorem' y pulsa 'TAB'.
+			</p>
+			<p>
+				lorem
+			</p>
+			<p>
+				+ TAB
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero consequatur laudantium accusantium delectus nihil asperiores nobis error, vel maxime eius ad at nemo reiciendis veniam aspernatur doloribus. Saepe, porro, laudantium!
+			</p>
+
+		</div>
+		<div id="bloque-2" onclick="alert('Hola don pepito!');">
+			
+			<h3>Bloque con Tag divisor</h3>
+
+			<p>
+				También llamado Horizontal Rule: &lt;hr&gt;
+			</p>
+			<hr>
+			<p>
+				Divide muy bien el asunto.
+			</p>
+		</div>
+
+		<hr>
+		<section>
+			<h3>Formulario</h3>
+			<form>
+				<!-- Todos los inputs que consideréis que tienen que existir ... existen. Google is your friend ;) -->
+				<input type="text">
+				<input type="checkbox">
+				<input type="textarea">
+				<button>Enviar</button>
+			</form>
+		</section>
+
+		<section>
+			<h3>Lista</h3>
+			<!-- Lista unordered (sin numeros, vaya) -->
+			<ul>
+				<li>Hola</li>
+				<li>Don</li>
+				<li>Pepito</li>
+			</ul>
+			<!-- Lista numerada -->
+			<ol>
+				<li>Hola</li>
+				<li>Don</li>
+				<li>Pepito</li>
+			</ol>
+		</section>
+		<section>
+			<h3>Tablas</h3>
+			<table>
+				<!-- Headings de cada columna -->
+				<th>Valor 1</th>
+				<th>Valor 2</th>
+				<!-- Un tr por cada Row de la tabla -->
+				<!-- Fila 1 -->
+				<tr>
+					<!-- Un td por cada elemento dato -->
+					<!-- Dato col 1 -->
+					<td>Tomás</td>
+					<!-- Dato col 2 -->
+					<td>Rubio</td>
+				</tr>
+				<!-- Fila 2 .... --> 
+				<tr>
+					<td>Fernando</td>
+					<td>Antón</td>
+				</tr>
+			</table>
+		</section>
+	</body>
+</html>
