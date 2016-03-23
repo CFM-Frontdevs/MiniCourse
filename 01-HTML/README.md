@@ -63,7 +63,7 @@ Si tuviese que listar las 5 tags y los 5 atributos que más utilizo serían:
 	* class
 	* ... y luego algunos específicos de tags: href, value, ...
 
-Podéis ver ejemplos de tags básicos si abrís el archivo [02-basicTags.html](/01-HTML/02-basicTags.html) con el chrome. 
+Podéis ver ejemplos de tags básicos si abrís el archivo [02-a-basicTags.html](/01-HTML/02-a-basicTags.html) con el chrome. 
 
 \* Nota: Buscad el javascript ;)
 
