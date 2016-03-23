@@ -67,6 +67,6 @@ Podéis ver ejemplos de tags básicos si abrís el archivo [02-a-basicTags.html]
 
 \* Nota: Buscad el javascript ;)
 
-Aprovechando el ejemplo, he copiado y pegado el código en [02-b-basicTagsWithBoostrap.html](/01-HTML/02-b-basicTagsWithBoostrap.html). El único cambio realizado ha sido incluir un tag `<link ...>` con el que pediremos al browser que descarga y ponga a disposición de la página una librería CSS. En este caso [Bootstrap](http://getbootstrap.com/getting-started/). 
+Aprovechando el ejemplo, he copiado y pegado el código en [02-b-basicTagsWithBoostrap.html](/01-HTML/02-b-basicTagsWithBootstrap.html). El único cambio realizado ha sido incluir un tag `<link ...>` con el que pediremos al browser que descarga y ponga a disposición de la página una librería CSS. En este caso [Bootstrap](http://getbootstrap.com/getting-started/). 
 
 Ahora no, pero ya miraremos en mayor detenimiento el CSS y las librerías en las que podéis apoyaros para hacer del desarrollo una labor más agradable a la vista de todos en mucho menos tiempo. Por ahora basta con que veáis como se pueden importar archivos desde CDNs (pueden ser CSS o JavaScript). En este caso, la librería CSS aplica algún que otro retoque a las cabeceras, la letra y, si os fijáis, aplica margenes laterales al div con id="bloque-1". Esto es algo que hace bootstrap al reconocer un elemento con clase 'container'. 
