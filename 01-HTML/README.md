@@ -9,7 +9,6 @@ El Browser, al acceder a una URL, realiza una petición a un servidor. De entre 
 La estructura más básica que podemos encontrar en un archivo HTML es la siguiente:
 
 ```
-
 	<html>
 		<head>
 			<title>Page Title</title>
@@ -18,5 +17,4 @@ La estructura más básica que podemos encontrar en un archivo HTML es la siguie
 			
 		</body>
 	</html>
-
 ```
