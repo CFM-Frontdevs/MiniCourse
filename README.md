@@ -18,8 +18,8 @@ El curso está separado en secciones ordenadas:
 0. Instalación de herramientas
 1. HTML
 2. CSS
-3. Librerías de terceros
-4. Javascript
+3. Javascript
+4. Librerías de terceros
 5. Node
 6. Ember con Ember-CLI
 
