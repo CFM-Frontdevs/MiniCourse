@@ -157,7 +157,26 @@ Se pueden aplicar estilos a varios elementos a la vez:
 Para entrar más en detalle sobre como seleccionar elemento, revisad [la guía de Selectores CSS](http://www.w3schools.com/cssref/css_selectors.asp) de w3school.
 
 
-### ¿Más?
+### ¿Qué características puede darle a un elemento?
+
+Ya sabemos como meter CSS en nuestro proyecto y, a grandes rasgos, como seleccionar elementos. Ahora que tengo un elemento seleccionado, ¿que hago con él? Los ejemplos más sencillos que vienen a la mente, y con los que jugaremos, son los colores, tamaños, márgenes, ... Todas las características que nos imaginamos controlando mientras hacemos un collage. 
+
+La conversación interna suele ser: 'Hago un bloque fijo en este lado para el menu ... le dejo un margen lateral de X pixels ... fondo de color Y ... estilo de letras concreto ... ' y así sucesivamente. Cada uno de estos detalles suele ir ligado a una propiedad CSS configurable.
+
+Las propiedades principales que os veréis con ganas de tocar son:
+
+- Fondos
+- Margenes (se aplica por el exterior de los límites del elemento)
+- Padding (que es un margen que se aplica de forma interna a los límites de elemento)
+- Ancho y alto
+- Estilo de letra (se suele aplicar a casi toda la aplicación por consistencia)
+- Tamaño y color de letra
+- Posición
+- Alineación de texto
+
+Todo esto y mucho más puede configurarse con CSS.
+
+## ¿Más?
 
 Si sois artistas, magos del color y del detalle al pixel, entiendo que esto os sepa a poco. Sabed que con CSS se hacen autenticas virguerías. *Animaciones, formas, efectos de sobreados, pantallas resposivas al cambio de tamaño del dispositivo o navegador, ...* y un sin fin de cosas más. 
 
