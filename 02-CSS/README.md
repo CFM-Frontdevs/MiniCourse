@@ -182,4 +182,4 @@ Si sois artistas, magos del color y del detalle al pixel, entiendo que esto os s
 
 En los [tutoriales](http://www.w3schools.com/css/default.asp) de CSS de w3school encontraréis una gran guía con la que entender, solo con ver el índice, lo mucho que se puede hacer. 
 
-Si por el contrario no encuentras una idea única que plasmar, ¡no te preocupes! Hay un sin fin de librerías CSS de terceros que utilizaremos para tener en pantalla elementos bonitos, estandard, aceptados por el usuario a simple vista y configurables. * Botones, acordeones animados, animaciones, ...* 
+Si por el contrario no encuentras una idea única que plasmar, ¡no te preocupes! Hay un sin fin de librerías CSS de terceros que utilizaremos para tener en pantalla elementos bonitos, estandard, aceptados por el usuario a simple vista y configurables. *Botones, acordeones animados, animaciones, ...* 
