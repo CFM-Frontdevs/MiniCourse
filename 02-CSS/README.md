@@ -125,7 +125,7 @@ Y el archivo "mystyle.css" (que en este caso estaría ubicado en la misma carpet
 	}
 ```
 
-Para una referencia completa sobre como importar CSS, leer este (tutorial)[http://www.w3schools.com/css/css_howto.asp].
+Para una referencia completa sobre como importar CSS, leer este [tutorial](http://www.w3schools.com/css/css_howto.asp).
 
 
 ### Seleccionar elementos HTML
@@ -154,13 +154,13 @@ Se pueden aplicar estilos a varios elementos a la vez:
 	}
 ```
 
-Para entrar más en detalle sobre como seleccionar elemento, revisad (la guía de Selectores CSS)[http://www.w3schools.com/cssref/css_selectors.asp] de w3school.
+Para entrar más en detalle sobre como seleccionar elemento, revisad [la guía de Selectores CSS](http://www.w3schools.com/cssref/css_selectors.asp) de w3school.
 
 
 ### ¿Más?
 
 Si sois artistas, magos del color y del detalle al pixel, entiendo que esto os sepa a poco. Sabed que con CSS se hacen autenticas virguerías. *Animaciones, formas, efectos de sobreados, pantallas resposivas al cambio de tamaño del dispositivo o navegador, ...* y un sin fin de cosas más. 
 
-En los (tutoriales)[http://www.w3schools.com/css/default.asp] de CSS de w3school encontraréis una gran guía con la que entender, solo con ver el índice, lo mucho que se puede hacer. 
+En los [tutoriales](http://www.w3schools.com/css/default.asp) de CSS de w3school encontraréis una gran guía con la que entender, solo con ver el índice, lo mucho que se puede hacer. 
 
 Si por el contrario no encuentras una idea única que plasmar, ¡no te preocupes! Hay un sin fin de librerías CSS de terceros que utilizaremos para tener en pantalla elementos bonitos, estandard, aceptados por el usuario a simple vista y configurables. * Botones, acordeones animados, animaciones, ...* 
