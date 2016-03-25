@@ -4,7 +4,7 @@ En este capitulo veremos a muy bajo nivel las opciones que nos ofrece el HTML, c
 
 ### ¿Que pasa cuando accedemos a una URL?
 
-El Browser, al acceder a una URL, realiza una petición a un servidor. De entre otras muchas cosas que pueden pasar, la más común es recibir un archivo HTML que nuestro Browser interpretará.
+El Browser, al acceder a una URL, realiza una petición a un servidor. De entre otras muchas cosas que pueden pasar, la más común ante un primer acceso es recibir un archivo HTML que nuestro Browser interpretará.
 
 La estructura más básica que podemos encontrar en un archivo HTML es la siguiente:
 
@@ -69,6 +69,16 @@ Podéis ver ejemplos de tags básicos si abrís el archivo [02-a-basicTags.html]
 
 \* Nota: Buscad el javascript ;)
 
+### Link Tag
+
+##### Ejemplo rápido de incorporación de dependencia
+
 Aprovechando el ejemplo, he copiado y pegado el código en [02-b-basicTagsWithBootstrap.html](/01-HTML/02-b-basicTagsWithBootstrap.html). El único cambio realizado ha sido incluir un tag `<link ...>` con el que pediremos al browser que descarga y ponga a disposición de la página una librería CSS. En este caso [Bootstrap](http://getbootstrap.com/getting-started/). 
 
 Ahora no, pero ya miraremos en mayor detenimiento el CSS y las librerías en las que podéis apoyaros para hacer del desarrollo una labor más agradable a la vista de todos en mucho menos tiempo. Por ahora basta con que veáis como se pueden importar archivos desde CDNs (pueden ser CSS o JavaScript). En este caso, la librería CSS aplica algún que otro retoque a las cabeceras, la letra y, si os fijáis, aplica margenes laterales al div con id="bloque-1". Esto es algo que hace bootstrap al reconocer un elemento con clase 'container'. 
+
+##### Ejemplo de esqueleto Web descargable (boilerplate)
+
+Un proyecto normal tendrá mucho más de lo que vemos aquí. No más complicado, si no más. Más enlaces de dependencias, más en el body, tal vez un framework web ... Hacer pruebas sobre una página en blanco puede saber a poco. Pero no hay porqué empezar de cero. 
+
+El el archivo [03-boilerPlate.html](/01-HTML/03-boilerPlate.html) veréis la estructura básica del index.html que tendréis descargando el [HTML5 Boilerplate](https://html5boilerplate.com/). Un sitio genial para empezar a trastear (tanto con HTML como con CSS y JS).
