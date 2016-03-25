@@ -6,7 +6,7 @@ El mundillo del javascript es cada vez más grande. Más estricto o fino, si que
 
 Empezaremos con las bases más básicas, inherentes a casi todo lenguaje de programación:
 
-- [Creación de variables y los tipos](#declaracion-de-variables)
+- [Creación de variables y los tipos](#declaración-de-variables)
 - Funciones y encadenado
 - Lógica básica
 - Búcles
