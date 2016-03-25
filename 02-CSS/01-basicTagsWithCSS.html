@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<link rel="stylesheet" href="01-basicTags.css">
+
+		<title>CFM-Rocks</title>
+	</head>
+	<body>
+		<!-- Atención a las clases! y a los acentos...-->
+		<h1 class="txt-rojo">Título h1 rojo</h1>
+		<h2 class="txt-azul descomunal">T&iacute;tulo h2 DESCOMUNAL y azul</h2>
+		
+		<!-- Aquí le asigno el id que considere (string) y una clase que después podrá ser referencia desde CSS o Javascript. Ambos valores puede ser utilizados para 'ubicar el elemento' y realizar acciones sobre el: pintarlo, darle forma, darle lógica ante eventos ... -->
+		<div id="bloque-1" class="container">
+			
+			<!-- Un parrafo. Sin más. Como todo elemento, puede tener un identificador (id), clases, ser accionable, ... -->
+			<p>
+				Soy un párrafo lorem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque quia iste repellat perferendis, quisquam sit dolorem, impedit adipisci repudiandae? Quisquam illum, suscipit laborum dolores quo cumque corporis alias excepturi tempore!
+			</p>
+			<p>
+				Para escribir ese parrafillo raro en sublime (muy útil para rellenar espacio cuando se hacen pruebas) escribe 'lorem' y pulsa 'TAB'.
+			</p>
+			<p>
+				lorem
+			</p>
+			<p>
+				+ TAB
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero consequatur laudantium accusantium delectus nihil asperiores nobis error, vel maxime eius ad at nemo reiciendis veniam aspernatur doloribus. Saepe, porro, laudantium!
+			</p>
+
+		</div>
+		<div id="bloque-2" onclick="alert('Hola don pepito!');">
+			
+			<h3>Bloque con Tag divisor</h3>
+
+			<p class="gordo">
+				También llamado Horizontal Rule: &lt;hr&gt; Y CON CLASE 'GORDO', para poner el texto en negrita jijiji
+			</p>
+			<hr>
+			<p>
+				Divide muy bien el asunto.
+			</p>
+		</div>
+
+		<hr>
+		<section>
+			<h3>Formulario</h3>
+			<form>
+				<!-- Todos los inputs que consideréis que tienen que existir ... existen. Google is your friend ;) -->
+				<input type="text">
+				<input type="checkbox">
+				<input type="textarea">
+				<button>Enviar</button>
+			</form>
+		</section>
+
+		<section>
+			<h3>Lista</h3>
+			<!-- Lista unordered (sin numeros, vaya) -->
+			<ul>
+				<li>Hola</li>
+				<li>Don</li>
+				<li>Pepito</li>
+			</ul>
+			<!-- Lista numerada -->
+			<ol>
+				<li>Hola</li>
+				<li>Don</li>
+				<li>Pepito</li>
+			</ol>
+		</section>
+		<section>
+			<h3>Tablas</h3>
+			<div class="CSSTableGenerator" >
+                <table >
+                    <tr>
+                        <td>
+                            Title 1
+                        </td>
+                        <td >
+                            Title 2
+                        </td>
+                        <td>
+                            Title 3
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Row 1
+                        </td>
+                        <td>
+                            Row 1
+                        </td>
+                        <td>
+                            Row 1
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Row 2
+                        </td>
+                        <td>
+                            Row 2
+                        </td>
+                        <td>
+                            Row 2
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Row 2
+                        </td>
+                        <td>
+                            Row 2
+                        </td>
+                        <td>
+                            Row 2
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Row 3
+                        </td>
+                        <td>
+                            Row 3
+                        </td>
+                        <td>
+                            Row 3
+                        </td>
+                    </tr>
+                </table>
+            </div>
+		</section>
+
+		<section>
+			<hr>
+			<h4>Una imagen importada desde nuestro proyecto</h4>
+			<img src="img/basic-01.png" alt="Texto alternativo a mostrar si la imagen no puede cargarse">
+
+			<h4>Una imagen importada desde una URL</h4>
+			<img src="https://cwciportal.cfm56.com/cwcilogin/images/cfm_logo.png" alt="CFM the power of flight">
+		</section>
+
+		<section>
+			<hr>
+			<h4>Un Video de youtube!</h4>
+			<a href="http://www.w3schools.com/html/html_youtube.asp">Link a tutorial</a>
+			<iframe width="420" height="315" src="http://www.youtube.com/embed/W4d7K92S7Eg?autoplay=1">
+			</iframe>
+			<p>Con las restricciones que ello pueda implicar ;)</p>
+		</section>
+		
+	</body>
+</html>
