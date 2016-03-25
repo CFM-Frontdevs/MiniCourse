@@ -72,11 +72,11 @@ var nulo = null;
 
 // DECLARACIÓN DE UNA FUNCIÓN
 
-function nombreDeLaFuncion (argumentosQueRecibe) { //código aquí };
+function nombreDeLaFuncion (argumentosQueRecibe) { /*código aquí*/ };
 
 // Función asginada a una variable. Lo llamado 'function expresion'
 // El nombreDeLaFuncion es opcional, aunque recomendado.
-var miFuncion = function nombreDeLaFuncion (argumentos) { //código aquí };
+var miFuncion = function nombreDeLaFuncion (argumentos) { /*código aquí*/ };
 ```
 
 Cada tipo de variable tiene sus propias característias y métodos privados (funciones con las que haremos cosas como ordenar, recortar, filtrar, ...).
