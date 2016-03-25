@@ -6,12 +6,10 @@ El mundillo del javascript es cada vez más grande. Más estricto o fino, si que
 
 Empezaremos con las bases más básicas, inherentes a casi todo lenguaje de programación:
 
-- Creación de variables y los tipos
-- Asignación de valores
-- Encadenado de funciones
+- [Creación de variables y los tipos](#declaracion-de-variables)
+- Funciones y encadenado
 - Lógica básica
 - Búcles
-- Funciones
 - Interacción con el HTML
 
 Esto nos dará la puntita del iceberg, pero suficientes herramientas para hacer cosas interesantes. Para ver todo esto y MUCHO MÁS, os recomiendo que vayáis directos a los [tutoriales de Javascript](http://www.w3schools.com/js/default.asp) de w3school. Si os vale con un resumen rápido de unos cuantos conceptos, seguíd leyendo.
