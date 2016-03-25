@@ -134,3 +134,40 @@ var longitudArray = array.length;
 console.log('Primer número en el array: ');
 console.log(array[0]);
 ```
+
+
+###### Object
+
+- [Referencia al objeto Object](http://www.w3schools.com/jsref/jsref_obj_array.asp)
+
+```
+console.log('-------------------------------------');
+console.log('---------SEPARACIÓN INICIAL----------');
+console.log('-------------------------------------');
+
+// JSON de 'clave: valor', donde el valor puede tomar cualquier tipo de variable javascript
+
+var objeto = {};
+console.log('Nuestro objeto inicial vacio:');
+console.log(objeto);
+
+// Asignación de clave/valor
+objeto.nombre = 'Jaime';
+objeto['apellido'] = 'López';
+objeto.edad = function(){  var d = new Date(); return d.getFullYear() - 1987; };
+objeto.hermanos = ['Pedro', 'Javier', 'Gorca'];
+objeto.hermanas = ['Maria', 'Luisa'];
+console.log('Nuestro objeto con valores:');
+console.log(objeto);
+
+// Podemos navegar los objetos utilizando un punto '.' para acceder a los hijos (claves) del objeto
+
+console.log('Llamamos solo al nombre con objeto.nombre: ');
+console.log(objeto.nombre);
+
+console.log('Llamamos a la función que calcula la edad con objeto.edad(): ');
+console.log(objeto.edad());
+
+console.log('Llamamos al índice 1 de array de hermanos con objeto.hermanos[1]: ');
+console.log(objeto.hermanos[1]);
+```

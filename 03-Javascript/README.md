@@ -69,12 +69,19 @@ var vectorArray = [];
 var stringDeCaracteres = '';
 var numero = 0; // Esta declaración da tipo y valor incial;
 var nulo = null;
-var funcion = function(){}; // Con esta nos estamos adelantando un poco 
+
+// DECLARACIÓN DE UNA FUNCIÓN
+
+function nombreDeLaFuncion (argumentosQueRecibe) { //código aquí };
+
+// Función asginada a una variable. Lo llamado 'function expresion'
+// El nombreDeLaFuncion es opcional, aunque recomendado.
+var miFuncion = function nombreDeLaFuncion (argumentos) { //código aquí };
 ```
 
 Cada tipo de variable tiene sus propias característias y métodos privados (funciones con las que haremos cosas como ordenar, recortar, filtrar, ...).
 
-IMPORTANTE: cualquier variable o función que declaremos en javascript debemos considerarla *UN OBJETO JAVASCRIPT*. Los objetos en javascript tienen un nombre, propiedades y métodos. Podremos acceder al objeto por su nombre, aunque ya veremos que dependiendo de donde estemos en el código tendrémos acceso a unas variables u otras. 
+**IMPORTANTE:** cualquier variable o función que declaremos en javascript debemos considerarla *UN OBJETO JAVASCRIPT*. Los objetos en javascript tienen un nombre, propiedades y métodos. Podremos acceder al objeto por su nombre, aunque ya veremos que dependiendo de donde estemos en el código tendrémos acceso a unas variables u otras. 
 
 Probad a acceder al objeto `window` desde la consola en de chrome. Para acceder a sus propiedades y métodos pondremos un punto `.` seguido del nombre de la propiedad o método. Este a su vez puede contener un *objeto* o *valor*. Por ejemplo:
 
