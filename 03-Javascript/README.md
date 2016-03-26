@@ -10,8 +10,7 @@ Empezaremos con las bases más básicas, inherentes a casi todo lenguaje de prog
 - [Funciones y encadenado](#funciones-y-encadenado)
 - [Un poquito sobre contexto](#un-poquito-sobre-contexto)
 - [Lógica básica](#lógica-básica)
-- Búcles
-- Interacción con el HTML
+- [Interacción con el HTML](#interacción-con-el-html)
 
 Esto nos dará la puntita del iceberg, pero suficientes herramientas para hacer cosas interesantes. Para ver todo esto y MUCHO MÁS, os recomiendo que vayáis directos a los [tutoriales de Javascript](http://www.w3schools.com/js/default.asp) de w3school. Si os vale con un resumen rápido de unos cuantos conceptos, seguíd leyendo.
 
@@ -378,4 +377,127 @@ console.log( !(y === '10') ); //¿NO (contrario) es y igual a '10' en tipo y val
 
 ##### if() {} else if () {} else {}
 
-Condición 'si'. Si esto se cumple haz esto
+Condición 'si'. Si esto se cumple haz esto. La sintaxis es muy sencilla:
+
+```
+if (condicion) { /* hago esto */ }
+```
+
+Si la condición se cumple, 'hago esto'. Esta lógica se puede extender con `else` (de lo contrario ...) y con `else if` (de lo contrario si esto es cierto ...):
+
+```
+if (condicion) { 
+	/* hago esto */ 
+}
+
+else if (condicion2) {
+	/* hago esto otro */
+}
+
+else {
+	/* lo que hago si no se cumple nada de lo anterior */
+}
+```
+
+##### Ternas: otro tipo de IF
+
+Pueden considerarse 'if's en linea. Limpitos y comodos en muchos casos. La sintaxis es:
+
+```
+condicion ? esto_si_true : esto_si_false;
+```
+
+Se puede usar para lanzar invocaciones de funciones:
+
+```
+var verdadero = true;
+
+function todoOk (){
+	console.log('Todo Ok!');
+}
+
+function errorExistente (){
+	console.log('Ooops!');
+}
+
+console.log('¿Verdadero es verdadero?');
+verdadero ? todoOk() : errorExistente();
+
+
+console.log('¿Es falso que verdadero es verdadero?');
+!verdadero ? todoOk() : errorExistente();
+```
+
+Otro uso muy frecuente aparece en la asignación:
+
+```
+var quemada = false;
+
+// Si 'quemada' es true, casa = 'Mal estado'. De lo contrario, 'Buen estado'
+var casa = quemada ? 'Mal estado' : 'Buen estado';
+
+// Si 'quedama' es true, catastrofe = quedama. De lo contrario, 'Todo ok'
+var catastrofe = quemada || 'Todo ok';
+
+console.log('La casa esta en ' + casa);
+console.log('¿Ha habido alguna catastrofe? ' + catastrofe);
+
+```
+
+
+##### for( inicializador; condicion; codigoRepetitivo) { /* código */ }
+
+El búcle `for` cubre la necesidad de repetir ciclos una cantidad definida de veces. La sintaxis es el mostrado como título: `for( inicializador; condicion; codigoRepetitivo) {}`. [Aquí](http://www.w3schools.com/js/js_loop_for.asp) os dejo un link al tutorial básico del bucle `for` para entrar en más detalle.
+
+Con saber que:
+- El código del inicializador es invocado una vez, antes de empezar a realizar ciclos
+- La condición de verifica antes de realizar un ciclo. Si es verdadera, el código de ejecuta.
+- El código repetitivo se ejecuta al finalizar cada ciclo
+
+Veamos un ejemplo en el que queremos pintar en pantalla los número del 1 al 100:
+
+```
+for (var i = 1; i <= 100; i = i + 1){
+	console.log(i);
+}
+```
+
+Un uso más interesante para los bucles `for` esta en recorrer un Array en su totalidad:
+
+```
+// Declaramos un array con valores.
+var array = ['Fer', 'Laura', 'Dani-sss', 'Pedro', 'Mar', 'Irene'];
+
+console.log('¡Vamos a pintar los nombres contenidos en un array!');
+
+// Sabemos que todo array tiene una propiedad 'length' con el número de elementos que contiene.
+// Usemosla
+
+for (var i = 0; i < array.length ; i++) {
+	// NOTA: i++ es lo mismo que decir i = i + 1. También se puede escribir: i += 1
+	console.log(array[i]);
+}
+```
+
+
+##### Más: switch, while, map, reduce, filter, ...
+
+Antes o después esto se os quedará corto. Os animo a que sigáis investigando. Buenas preguntas a hacer a google serían:
+
+```
+javascript map tutorial
+```
+
+o
+
+```
+javascript reduce tutorial
+```
+
+Herramientas muy interesantes ;)
+
+
+### Interacción con el HTML
+
+¡YA TENEMOS NUESTRO MINI BAT-CINTURON DE JAVASCRIPT! Empecemos a juntar todo lo visto de HTML, CSS y Javascript en un solo sitio, ¿os parece?
+
