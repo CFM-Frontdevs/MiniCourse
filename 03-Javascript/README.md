@@ -9,7 +9,7 @@ Empezaremos con las bases más básicas, inherentes a casi todo lenguaje de prog
 - [Creación de variables y los tipos](#declaración-de-variables)
 - [Funciones y encadenado](#funciones-y-encadenado)
 - [Un poquito sobre contexto](#un-poquito-sobre-contexto)
-- Lógica básica
+- [Lógica básica](#lógica-básica)
 - Búcles
 - Interacción con el HTML
 
@@ -309,3 +309,73 @@ console.log(objeto.combinado());
 ```
 
 
+### Lógica básica
+
+Como con cualquier otro lenguaje de programación, exigimos tener la capacidad de codificar lógica:
+- Si esto es así, haz esto. De lo contrario, haz esto otro
+- Para cada uno de los elementos que tengo aquí, haz algo
+- Dependiendo del valor de X, haz una de varias cosas
+- Mientras esto valga XX, haz esto
+
+Las herramientas más fundamentales que todo programador tiene que tener son las siguientes (hay muchas muchas más).
+
+##### Comparadores y operadores lógicos
+
+Los utilizamos para comprobar si una condición es `true` o `false`. [Aquí](http://www.w3schools.com/js/js_comparisons.asp) tenéis un link a un tutorial rápido que resumen muy bien los operadores lógicos de los que disponemos en Javascript. 
+
+Una clave importante a señalar de la comparación de variables en javascript es que se puede hacer de dos formas:
+- Comparación de valor
+- Comparación de valor Y tipo
+
+¿Esto que quiere decir? Que si comparamos una cadena de caracteres y un número, como pueden ser '01' y 1, dependiendo de si comparamos de la primera forma o de la segunda recibiremos verdadero o falso.
+
+Os dejo un ejemplo:
+
+```
+// Comparación de valor SOLO. 
+
+'01' == 1;
+
+// Al introducir esto en la consola, la respuesta es TRUE
+
+// ------------------------
+// Comparación de valor Y tipo. 
+
+'01' === 1;
+
+// Al introducir esto en la consola, la respuesta es FALSE
+```
+
+En el primer caso, lo que ocurre es que internamente se detecta que la primera variable es un String y que la segunda es un Number. Al estar haciendo una comparación solo de valor, el motor javascript 'convierte' el numero a cadena y pregunta otra vez, ¿son iguales? SI.
+
+En el segundo caso la comparación es directa. La pregunta realizada es, ¿son estas variables igual es en valor y tipo? Al ser una un String y otra un Number, la respuesta es NO.
+
+Los comparadores que más veréis son:
+- '===' --> Igual valor y tipo
+- '!==' --> NO igual en valor y tipo
+- '<' --> Menor que (idem para >)
+- '<=' --> Menor o igual que (idem para >)
+
+En lo que se refiere a **operadores lógicos**, los utilizaremos para aportar complejidad a nuestra consulta de verdadero o falso. Dispondremos de:
+- Y (&&)
+- O (||)
+- Contrario (!)
+
+Ejemplos:
+
+```
+var x = 5;
+var y = 10;
+
+console.log( x === 5 && y == '10' );  // ¿(Es x igual a 5 en tipo y valor) Y (Es y igual a '10' en valor)? Verdadero
+
+console.log( x === 5 || y === '10' ) // ¿(Es x igual a 5 en tipo y valor) O (Es y igual a '10' en tipo y valor)? Verdadero. La primera se cumple. Condición suficiente en un O.
+
+console.log( !(y === '10') ); //¿NO (contrario) es y igual a '10' en tipo y valor? Verdadero
+```
+
+
+
+##### if() {} else if () {} else {}
+
+Condición 'si'. Si esto se cumple haz esto
