@@ -19,9 +19,10 @@ El curso está separado en secciones ordenadas:
 1. HTML
 2. CSS
 3. Javascript
-4. Librerías de terceros
-5. Node
-6. Ember con Ember-CLI
+4. HTML + CSS + JS
+5. Librerías de terceros
+6. Node
+7. Ember con Ember-CLI
 
 Recomendamos instalar Git. Este programa no es imprescindible pero si interesante. Puedes descargar este repositorio directamente con Zip (opción ofrecida por GitHub). Otra opción es clonar el repositorio con Git:
 

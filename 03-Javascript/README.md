@@ -499,5 +499,5 @@ Herramientas muy interesantes ;)
 
 ### Interacción con el HTML
 
-¡YA TENEMOS NUESTRO MINI BAT-CINTURON DE JAVASCRIPT! Empecemos a juntar todo lo visto de HTML, CSS y Javascript en un solo sitio, ¿os parece?
+¡YA TENEMOS NUESTRO MINI BAT-CINTURON DE JAVASCRIPT! Empecemos a juntar todo lo visto de [HTML, CSS y Javascript](/03-HTML+CSS+JS/README.md) en un solo sitio, ¿os parece?
 
