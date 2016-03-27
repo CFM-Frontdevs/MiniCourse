@@ -62,7 +62,66 @@ Ahora toca completar la mezcla con un toque de Javascript aquí y allá.
 
 ### Insertar Javascript en el proyecto
 
-// TODO
+En nuestro proyecto web, la manera principal con la que meter el Javascript es con el tag `<script></script>`. Este puede ser incluido tanto en el 'head' como en el 'body' del HTML. [En este link](http://www.w3schools.com/js/js_whereto.asp) tenéis una explicación rápida y con ejemplos de este tag.
+
+```
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CFM Rocks</title>
+		<script>
+			function miFuncion (){
+				/* código */
+			}
+			var miVariableGlobal = {
+				utilidad1 : function(){
+					/* código */
+				},
+				propiedad1 : function(){
+					/* código */
+				}
+			};
+			console.log('Código lanzado desde el head! ');
+			console.log('Se lanza antes que el que encontramos en el body ya que al leer el archivo HTML es evaluado antes.');
+			console.log('En este punto todavía no se ha cargado el HTML del body de la página. No podemos interactuar con el directamente (hay solución, que veremos)');
+		</script>
+	</head>
+	<body>
+		<h1>Welcome to CFM</h1>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum velit debitis amet veritatis, dignissimos consequuntur totam harum modi sunt soluta nulla laborum unde a itaque animi dolores earum esse eos.
+		</p>
+		<script>
+			function miFuncion2 (){
+				/* código */
+			}
+			var miVariableGlobal2 = {
+				utilidad1 : function(){
+					/* código */
+				},
+				propiedad1 : function(){
+					/* código */
+				}
+			};
+			console.log('Código lanzado desde el body! ');
+			console.log('En este punto ya se ha cargado todo el HTML de la web. ESTO ES IMPORTANTE SI QUEREMOS INTERACTUAR CON EL. No podemos seleccionar un elemento que no existe, ¿verdad?');
+		</script>
+	</body>
+</html>
+```
+
+Otra forma de introducir código Javascript es desde archivos externos, de manera similar a como importamos dependencias CSS. Utilizamos el tag script: 
+
+```
+<script src="miCodigo.js"></script>
+```
+Donde src es el path al archivo que queremos importar. Al igual que en los ejemplos anteriores podemos introducir el tag en el 'head' y en el 'body'.
+
+Utilizaríamos el tag de la misma manera para importar una librería de terceros desde un CDN. Por ejemplo, el tag para importar ember a nuestro proyecto sería:
+
+```
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ember.js/2.4.3/ember.min.js"></script>
+```
 
 ### Selección de elementos HTML
 
