@@ -143,6 +143,27 @@ Podemos acceder a este 'documento' con Javascript en cualquier momento. Existe e
 
 Existe una larga lista de eventos HTML y veremos como sacarles partido. Por ahora, nos centraremos en utilizar el DOM para seleccionar elementos HTML y en que podemos hacer con el objeto seleccionado.
 
+#### Selección
+
+Hacemos la selección de uno o varios elementos HTML utilizando:
+
+```
+// Con getElementById conseguimos una referencia a UN SOLO elemento a través de su ID único
+document.getElementById(id)
+
+// Con getElementByTagName conseguimos el ARRAY DE ELEMENTOS que contienen el tag name indicado
+document.getElementsByTagName(nombre)
+
+// Con getElementsByClassName conseguimos el ARRAY DE ELEMENTOS que contienen la clase indicada
+document.getElementsByClassName(clase)
+```
+
+Hay ciertos elementos a los que podemos acceder directamente. Por ejemplo: `document.body` o `document.title`.
+
+[Aquí tenéis una referencia bastante completa de los métodos disponbiles](http://www.w3schools.com/js/js_htmldom_document.asp) dentro del objeto `document`, tanto para selección de elementos como para editado, creación y borrado. 
+
+Os dejo [aquí una pequeña demo](/04-HTML) de como se puede modificar y crear una pantalla con javascript, utilizando los métodos de creación de elementos, selección, editado y borrado.
+
 ### Eventos
 
 // TODO
