@@ -162,7 +162,7 @@ Hay ciertos elementos a los que podemos acceder directamente. Por ejemplo: `docu
 
 [Aquí tenéis una referencia bastante completa de los métodos disponbiles](http://www.w3schools.com/js/js_htmldom_document.asp) dentro del objeto `document`, tanto para selección de elementos como para editado, creación y borrado. 
 
-Os dejo [aquí una pequeña demo](/04-HTML) de como se puede modificar y crear una pantalla con javascript, utilizando los métodos de creación de elementos, selección, editado y borrado.
+Os dejo [aquí una pequeña demo](/04-HTML%2BCS%2BJS/01-demoDom) de como se puede modificar y crear una pantalla con javascript, utilizando los métodos de creación de elementos, selección, editado y borrado. Podéis ver 
 
 ### Eventos
 
